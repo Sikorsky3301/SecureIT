@@ -207,8 +207,20 @@ pytest
    ```
 5. Open a pull request.
 
+
+## Postman Collection for API Testing
+
+To test the API endpoints, you can use the provided Postman collection.
+
+### Steps to Use:
+1. Download the file `secure_file_sharing_collection.json` from this repository.
+2. Open [Postman](https://www.postman.com/).
+3. Click **Import** in the top-left corner of Postman.
+4. Select the downloaded `secure_file_sharing_collection.json` file.
+5. The collection **"Secure File Sharing API"** will appear in your workspace.
+6. Update the `auth_token` variable in Postman after logging in as an Ops User.
+
+You can now test all endpoints, including user login, file upload, client signup, file listing, and file download.
+
+
 ---
-
-## **License**
-This project is licensed under the MIT License.
-
